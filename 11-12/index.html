@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            width: 100%;
+            background-color:rgb(255, 255, 255);
+        }
+        .row2
+        {
+            width: 100%;
+            justify-content: space-around;
+        }
+        .row3
+        {
+            width: 100%;
+            justify-content: space-around;
+        }
+        .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8
+        {
+            height: 40vh;
+            width: 80%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px;
+            position: relative;
+            left: 6%;
+            margin: 15px;
+        }
+        img{
+            height: 25vh;
+            width: 25vh;
+            position: relative;
+            top: 3vh;
+            left: 24%;
+        }
+        h2
+        {   
+            text-align: center;
+
+        }
+        .h2
+        {
+            text-decoration: underline;
+        }
+        span
+        {
+            color: red;
+        }
+       @media only screen and (min-width:768px) {
+        .container
+        {
+            height: 200vh;
+            width: 100%;
+            /* background-color:blueviolet; */
+        }
+        .row4
+        {
+            height: 60vh;
+            width: 80%;
+            background-color: #b91313;
+            position: relative;
+            left: 10%;
+            top: 10vh;
+            border-radius: 15px;
+        }
+
+        .row2,.row3
+        {
+        display: flex;
+        position: relative;
+        left: -6%;
+        }
+        table
+        {
+            width: 1000px;
+            height: 70vh;
+            position: relative;
+            left: -10%;
+            text-align: center;
+        }
+        
+       }
+       .row4
+        {
+            height: 60vh;
+            width: 80%;
+            background-color: #ffffff;
+            position: relative;
+            left: 10%;
+            top: 10vh;
+            border-radius: 15px;
+        }
+        table
+        {
+            margin-left: 20%;
+            margin-top: 3vh;
+        }
+     
+        select
+        {
+            margin-left: 5%;
+            margin-top: 1vh;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <h2 class="h2">2024 I<span>P</span>L Te<span>a</span>ms List</h2>
+        </div>
+        <div class="row2">
+            <div class="col1">
+                <img src="./csk.png" alt="">
+                <pre><h2>Chennai super Kings</h2></pre>
+            </div>
+            <div class="col2">
+                <img src="./rcb.webp" alt="">
+                <pre><h2>RCB</h2></pre>
+            </div>
+            <div class="col3">
+                <img src="./Mumbai_Indians_Logo.svg.png" alt="">
+                <pre><h2>Mumbai Indians</h2></pre>
+            </div>
+            <div class="col4">
+                <img src="./Sunrisers_Hyderabad.png" alt="">
+                <pre><h2>SRH</h2></pre>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="col5">
+                <img src="./1200px-Gujarat_Titans_Logo.svg.webp" alt="">
+                <pre><h2>GT</h2></pre>
+            </div>
+            <div class="col6">
+                <img src="./Rajasthan_Royals_Logo.svg.png" alt="">
+                <pre><h2>Rajasthan Royals</h2></pre>
+            </div>
+            <div class="col7">
+                <img src="./Kolkata_Knight_Riders_Logo.svg.png" alt="">
+                <pre><h2>KKR</h2></pre>
+            </div>
+            <div class="col8">
+                <img src="./delhi capitals.webp" alt="">
+                <pre><h2>Delhi capitals</h2></pre>
+            </div>
+        </div>
+        <div class="row4"><br><br>
+            <center><h2>IPL Po<span>i</span>nts Tab<span>l</span>e</h2></center>
+            <table border="1"> 
+                <tr>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                </tr>
+                <tr >
+                    <td rowspan="2">1</td>
+                    <td>CSK</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <!-- <td>2</td> -->
+                    <td>MI</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>GT</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>RCB</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>RR</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>KKR</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td colspan="2">SRH</td>
+                    <!-- <td>10</td> -->
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <marquee behavior=""  direction="">&copf;# Task-11-12 By Swami Naidu..</marquee>
+    </footer>
+</body>
+</html>

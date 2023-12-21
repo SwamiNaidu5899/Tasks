@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            height: 100vh;
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .row1
+        {
+            height: 10vh;
+            width: 100%;
+            background-color: #fff;
+        }
+        button
+        {
+            height: 5vh;
+            width: 20%;
+            background-color: rgb(214, 30, 30);
+            border-radius: 15px;
+            border: none;
+            position: relative;
+            left: 40%;
+            top: -10vh;
+            color: white;
+        }
+        button:hover
+        {
+            transform: scale(1.3);
+        }
+        span
+        {
+            color: rgb(227, 0, 0);
+        }
+        .span
+        {
+            color: rgb(0, 0, 0);
+        }
+        .col1,.col2,.col3,.col4
+        {
+            height: 40vh;
+            width: 100%;
+        }
+        img,video
+        {
+            height: 40vh;
+            width: 100%;
+            border-radius: 15px;
+        }
+        @media screen and (min-width:768px) {
+            .row2
+            {
+                display: flex;
+                justify-content: space-around;
+            }
+            .col1,.col2,.col3,.col4
+            {
+                height: 40vh;
+                width: 24%;
+
+            }
+            .btn
+            {
+                position: relative;
+                top: -5vh;
+            }
+            video{
+                position: relative;
+                top: -4vh;
+            }
+            button{
+                position: relative;
+                top: 5vh;
+                
+            }
+            img{
+                height: 30vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <h2 style="text-align: center;">#T<span>a</span>sk-<span>13</span>-12-2<span>02</span>3</h2>
+        </div>
+        <div class="row2">
+            <div class="col1">
+                <img src="./thar1.webp" alt="">
+                <a href="./thar1.webp" download=""><button>Click</button></a>
+            </div>
+            <div class="col2">
+                <video src="./_import_60cecdcf7b9ad1.76937546_FPpreview.mp4" autoplay></video>
+                <a href="./_import_60cecdcf7b9ad1.76937546_FPpreview.mp4" download=""><button class="btn">Click</button></a>
+            </div>
+            <div class="col3">
+                <img src="./gmail.png" alt="">
+                <a href="mailto:123@gmail.com"><button><span class="span">&#9993;</span> Mail</button></a>
+            </div>
+            <div class="col4">
+                <img src="./customer-service.png" alt="">
+                <a href="tel:124578965"><button><span class="span">&#9742;</span> Call</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

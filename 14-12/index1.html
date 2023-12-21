@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="shortcut icon" href="./reg icon.png" type="image/x-icon">
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+        }
+        .container
+        {
+            height: 90vh;
+            width: 90%;
+            background-color: rgb(21, 21, 28);
+            position: relative;
+            top: 5vh;
+            left: 5%;
+            border-radius: 10px;
+        }
+        .row1,h1
+        {
+            text-align: center;
+            color: white;
+        }
+        input
+        {
+            position: relative;
+            left: 9%;
+            height: 6vh;
+            width: 80%;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 1px 1px rgb(72, 136, 232);
+            background-color: rgb(48, 48, 48);
+        }
+        ::-webkit-input-placeholder {
+            text-align: center;
+        }
+        
+        button
+        {
+            position: relative;
+            left: 9%;
+            top: 3vh;
+            height: 6vh;
+            width: 80%;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 1px 1px rgb(0, 0, 0);
+            background-color: rgb(0, 185, 185);
+        }
+        a
+        {
+            position: relative;
+            top: 3vh;
+            left: 35%;
+            color: white;
+        }
+        .hr
+        {
+            position: relative;
+            top: 8vh;
+            left: 10%;
+            width: 80%;
+            
+        }
+        hr
+        {
+            position: relative;
+            /* top: 8vh; */
+            left: 10%;
+            width: 80%;
+            opacity: 0.5;
+            
+        }
+        .hr1
+        {
+            position: relative;
+            /* top: 8vh; */
+            left: 30%;
+            width: 40%;
+            opacity: 0.5;
+            
+        }
+        .a{
+            position: relative;
+            top: 10vh;
+            color: white;
+        }
+        img{
+            height: 4vh;
+            width: 4vh;
+            position: relative;
+            top: 15vh;
+            left: 40%;
+        }
+        .img{
+            height: 4vh;
+            width: 4vh;
+            position: relative;
+            top: 15vh;
+            left: 45%;
+        }
+        @media screen and (min-width:768px) {
+            .container
+            {
+                height: 70vh;
+                width: 50%;
+                position: relative;
+                left: 25%;
+                top: 10vh;
+                /* background-color: #39efd7; */
+            }
+            .col1,.col2
+            {
+                height: 8vh;
+                width: 50%;
+                /* background-color: #fff; */
+            }
+          .row2
+          {
+            display: flex;
+          }
+          a
+        {
+            position: relative;
+            color: white;
+            left: 42%;
+        }
+        img{
+            height: 4vh;
+            width: 4vh;
+            position: relative;
+            top: 15vh;
+            left: 43%;
+        }
+        .img{
+            height: 4vh;
+            width: 4vh;
+            position: relative;
+            top: 15vh;
+            left: 48%;
+        }
+        .p
+        {
+            position: relative;
+            top: 1vh;
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <br>
+            <h2>LogIn</h2><br>
+            <hr class="hr1">
+        </div>
+        
+
+            <form action="">
+                <br><br>
+                <div class="row2">
+                    <div class="col1">
+                        <input type="text" name="" id="" placeholder="User Name" required>  
+                    </div><br><br>
+                    <div class="col2">
+                        <input type="password" name="" id="" placeholder="password" required>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <p><a href="#">Forgot password?</a></p><br>
+                <button>LogIn</button>
+                    
+            </form>
+
+       
+        <div class="row3">
+            <hr class="hr">
+            <a href="#" class="a">Create an account</a><br>
+            <span><img src="./google.png" alt=""></span>
+            <span><img class="img" src="./facebook.png" alt=""></span>
+            <!-- <footer>
+                <marquee style="color: white;" behavior="" direction=""> <p class="p">&copy;#Task.9-14/12 by Swami Naidu..</p></marquee>
+             </footer> -->
+        </div>
+        
+    </div>
+</body>
+</html>
